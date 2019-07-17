@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>João Doidão</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+<ion-card >
+    <img src="https://i1.wp.com/www.cavok.com.br/blog/wp-content/uploads/2015/09/IMG_4274.jpg" (click)="buttonClick()"/>
+  <ion-card-header>
+    <ion-card-title>Clica na foto, Seu mental</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content>
+    <p>Carro é o caralho... Avião é o que há de mais moderno nesse mundo e avião é o que manda nesse mundo. PORRA</p>
+  </ion-card-content>
+</ion-card>
+  <ion-list  padding>
+    <ion-item  *ngFor="let p of pais" [color]="p.color">
+      <a>
+        <div>
+          {{p.nome}} ({{p.cont}})
+        </div>
+      </a>
+    </ion-item>
+  </ion-list>
+</ion-content>

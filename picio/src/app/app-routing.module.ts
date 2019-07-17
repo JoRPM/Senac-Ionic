@@ -15,7 +15,15 @@ const routes: Routes = [
     path: 'list',
     loadChildren: './list/list.module#ListPageModule'
   },
-  { path: 'cadcarro', loadChildren: './cadcarro/cadcarro.module#CadcarroPageModule' }
+  { 
+    path: 'cadcarro',
+    loadChildren: './cadcarro/cadcarro.module#CadcarroPageModule'
+  },
+  { 
+    path: 'joaodoidao',
+    loadChildren: './joaodoidao/joaodoidao.module#JoaodoidaoPageModule'
+  },
+  { path: 'cad-cliente', loadChildren: './cad-cliente/cad-cliente.module#CadClientePageModule' }
 ];
 
 @NgModule({
