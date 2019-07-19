@@ -23,7 +23,8 @@ const routes: Routes = [
     path: 'joaodoidao',
     loadChildren: './joaodoidao/joaodoidao.module#JoaodoidaoPageModule'
   },
-  { path: 'cad-cliente', loadChildren: './cad-cliente/cad-cliente.module#CadClientePageModule' }
+  { path: 'cad-cliente', loadChildren: './cad-cliente/cad-cliente.module#CadClientePageModule' },
+  { path: 'cadprofissional', loadChildren: './cadprofissional/cadprofissional.module#CadprofissionalPageModule' }
 ];
 
 @NgModule({

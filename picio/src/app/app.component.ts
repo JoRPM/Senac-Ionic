@@ -30,7 +30,18 @@ export class AppComponent {
       title: 'João Mental',
       url: '/joaodoidao',
       icon: 'jet'
+    },
+    {
+      title: 'Cadastro Profissional',
+      url: '/cadprofissional',
+      icon: 'list'
+    },
+    {
+      title: 'Cadastro Cliente',
+      url: '/cad-cliente',
+      icon: 'bluetooth'
     }
+
   ];
 
   constructor(

@@ -12,4 +12,8 @@ export class CadClientePage implements OnInit {
   ngOnInit() {
   }
 
+
+  enviar(){
+    alert("Cadastrado com sucesso!")
+  }
 }
